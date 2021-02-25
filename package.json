@@ -1,0 +1,26 @@
+{
+  "name": "suneela-v.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suneela-v/suneela-v.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suneela-v/suneela-v.github.io/issues"
+  },
+  "homepage": "https://github.com/suneela-v/suneela-v.github.io#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/styles": "^4.11.3",
+    "fg-loadcss": "^3.1.0"
+  }
+}
