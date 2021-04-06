@@ -9,14 +9,14 @@
     font-size: 40px;
     font-family: "Times New Roman", Times, serif;
     font-weight: bold;
-    
+    margin-bottom: 5px;
     color:#B8AAF4
   }
   .role {
     font-size: 40px;
     font-family: "Times New Roman", Times, serif;
     font-weight: bolder;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color:#6C59BC
   }
   .desc {
@@ -24,12 +24,12 @@
     margin-bottom: 10px;
     font-weight: bold;
     font-family: "Times New Roman", Times, serif;
-    color:#B8AAF4
+    color:#6C59BC
   }
   .box1 div {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    /* margin-bottom: 10px; */
     font-weight: bold;
   }
   .image {
