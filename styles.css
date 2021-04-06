@@ -13,7 +13,7 @@
     color:#B8AAF4
   }
   .role {
-    font-size: 30px;
+    font-size: 40px;
     font-family: "Times New Roman", Times, serif;
     font-weight: bolder;
     margin-bottom: 10px;
@@ -23,6 +23,8 @@
     font-size: 20px;
     margin-bottom: 10px;
     font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    color:#B8AAF4
   }
   .box1 div {
     display: flex;
@@ -35,6 +37,10 @@
     width: 150px;
     border-radius: 50%;
     border: 10px solid #3DB2BF;
+  }
+  .pro{
+   
+    padding:50px
   }
   
   .pro1 {
@@ -51,6 +57,7 @@
    
     background-color: #0e6e84;
     height: 100vh;
+    
   }
   .circles {
     border: 20px solid white;
