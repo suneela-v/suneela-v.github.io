@@ -1,66 +1,65 @@
 .box1 {
     text-align: center;
-    
-  }
-  /* .box1 p{
+    max-width: 70%;
+    border: 1 px solid green;
+    margin: auto
+}
+/* .box1 p{
       font-size: 40px
   } */
-  .name {
-    font-size: 40px;
-    font-family: "Times New Roman", Times, serif;
-    font-weight: bold;
-  
-    color:#B8AAF4
-  }
-  .role {
-    font-size: 30px;
-    font-family: "Times New Roman", Times, serif;
-    font-weight: bolder;
+.name {
+    font-size: 33px;
+    font-family: Open Sans;
+    font-weight: Bold;
+    color: #3C5E9B
+}
+.role {
+    font-size: 19px;
+    font-family: Open Sans;
+    font-weight: Semibold;
     margin-bottom: 5px;
-    color:#6C59BC
-  }
-  .desc {
-    font-size: 20px;
-    
+    color:#707070;
+}
+.desc {
+    font-size: 14px;
     padding: 30px;
-    font-weight: bold;
-    font-family: "Times New Roman", Times, serif;
-    color:#6C59BC
-  }
-  .box1 div {
+    font-weight: light;
+    font-family: Roboto;
+    color: #707070
+}
+.box1 div {
     display: flex;
     justify-content: space-evenly;
     /* margin-bottom: 10px; */
     font-weight: bold;
-  }
-  .image {
+}
+.image {
     height: 150px;
     width: 150px;
     border-radius: 50%;
     border: 10px solid #3DB2BF;
-  }
-  .pro{
-   
-    padding:50px
-  }
-  
-  .pro1 {
-   
+
+}
+.pro {
+    padding: 50px
+}
+.pro1 {
     font-size: 30px;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Open Sans";
     font-weight: bolder;
-    margin-bottom: 10px;
-  }
-  .topdiv {
+    margin-bottom: 10 px;
+}
+.topdiv {
     position: realtive;
     display: grid;
     grid-template-columns: auto auto auto;
-   
     background-color: #0e6e84;
     height: 100vh;
-    
-  }
-  .circles {
+    max-width: 70%;
+    border: 1 px solid green;
+    margin: auto
+}
+.circles {
     border: 20px solid white;
     border-radius: 50%;
     height: 150px;
@@ -68,16 +67,20 @@
     top: 40%;
     left: 30%;
     position: relative;
-  }
-  .innercircle {
+}
+.innercircle {
     color: #3bcec8;
+    color: #FFC831;
     font-size: 40px;
     position: relative;
     top: 20%;
     left: 15%;
-  }
-  .box {
-      
-      min-height: 100px
-  }
-  
+}
+.box {
+    min-height: 100px
+}
+.card-body {
+    flex: 1 1 auto;  
+    min-height: 1px;
+    padding: 0 0 0 1.25 !important;
+}
